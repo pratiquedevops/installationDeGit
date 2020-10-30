@@ -1,0 +1,6 @@
+#deplooiment de git
+---
+- name: Deploiement de git
+  hosts: jenkins-clients
+  roles: 
+    - git
